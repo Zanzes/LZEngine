@@ -1,0 +1,7 @@
+﻿     Creating library C:\Repos\Visual Studio\LZEngine\Release\LZEngine.lib and object C:\Repos\Visual Studio\LZEngine\Release\LZEngine.exp
+  Generating code
+c:\repos\visual studio\lzengine\lzengine\utils\timing.h(16): error C4700: uninitialized local variable 'li' used
+c:\repos\visual studio\lzengine\lzengine\utils\timing.h(16): error C4700: uninitialized local variable 'li' used
+c:\repos\visual studio\lzengine\lzengine\utils\timing.h(16): error C4700: uninitialized local variable 'li' used
+  All 17 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+LINK : fatal error LNK1257: code generation failed

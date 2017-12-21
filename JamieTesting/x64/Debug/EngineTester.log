@@ -1,0 +1,17 @@
+﻿  Vector3DTests.cpp
+d:\downloads\firefox\game-engine-master\enginetester\vector3dtests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  Vector2DTests.cpp
+d:\downloads\firefox\game-engine-master\enginetester\vector2dtests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  ProfilesTest.cpp
+d:\downloads\firefox\game-engine-master\enginetester\profilestest.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  MyMain.cpp
+d:\downloads\firefox\game-engine-master\enginetester\mymain.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  Matrix3DTests.cpp
+d:\downloads\firefox\game-engine-master\enginetester\matrix3dtests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  Matrix2DTests.cpp
+d:\downloads\firefox\game-engine-master\enginetester\matrix2dtests.cpp(2): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  ClockTests.cpp
+d:\downloads\firefox\game-engine-master\enginetester\clocktests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  gtest-all.cc
+d:\downloads\firefox\game-engine-master\middleware\gtest\src\gtest-all.cc(39): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  Generating Code...

@@ -1,0 +1,11 @@
+﻿  Vector3D.cpp
+  FrameTimer.cpp
+  SplitTimer.cpp
+  Profiler.cpp
+  Profile.cpp
+  Vector2D.cpp
+  LZEngine.cpp
+  Node.cpp
+  Generating Code...
+     Creating library C:\Repos\Visual Studio\LZEngine\Build\LZEngine.lib and object C:\Repos\Visual Studio\LZEngine\Build\LZEngine.exp
+  LZEngine.vcxproj -> C:\Repos\Visual Studio\LZEngine\Build\LZEngine.dll

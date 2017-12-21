@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sandbox.cpp" />
+    <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="MyGame_moc.cpp" />
+    <ClCompile Include="NewKeyMapper.cpp" />
+    <ClCompile Include="ControllerComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="common.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyGame.h" />
+    <ClInclude Include="NewKeyMapper.h" />
+    <ClInclude Include="InputActions.h" />
+    <ClInclude Include="ControllerComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{610e306d-f044-4426-b71d-b0335f359bae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

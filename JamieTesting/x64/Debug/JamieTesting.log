@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (EngineTester.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Vector3DTests.cpp
+c:\repos\visual studio\lzengine - copy (2)\jamietesting\vector3dtests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  Vector2DTests.cpp
+c:\repos\visual studio\lzengine - copy (2)\jamietesting\vector2dtests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  MyMain.cpp
+c:\repos\visual studio\lzengine - copy (2)\jamietesting\mymain.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  Matrix3DTests.cpp
+c:\repos\visual studio\lzengine - copy (2)\jamietesting\matrix3dtests.cpp(1): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  Matrix2DTests.cpp
+c:\repos\visual studio\lzengine - copy (2)\jamietesting\matrix2dtests.cpp(2): fatal error C1083: Cannot open include file: 'gtest\gtest.h': No such file or directory
+  gtest-all.cc
+c:\repos\visual studio\lzengine - copy (2)\middleware\gtest\src\gtest-all.cc(39): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  Generating Code...

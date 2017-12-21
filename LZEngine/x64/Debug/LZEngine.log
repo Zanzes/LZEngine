@@ -1,0 +1,31 @@
+﻿  FrameTimer.cpp
+  SplitTimer.cpp
+  GameTime.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\timing\gametime.cpp(2): fatal error C1083: Cannot open include file: 'Timing/FrameTimer.h': No such file or directory
+  Renderer.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\rendering\renderer.cpp(1): fatal error C1083: Cannot open include file: 'gl/glew.h': No such file or directory
+  Renderable.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\rendering\renderable.h(2): fatal error C1083: Cannot open include file: 'Math/Matrix2DH.h': No such file or directory
+  ProMath.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\math\promath.h(2): fatal error C1083: Cannot open include file: 'Math/Vector3D.h': No such file or directory
+  Profiler.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\profiling\profiler.h(2): fatal error C1083: Cannot open include file: 'DataStructures/LZLinkedList.h': No such file or directory
+  Profile.cpp
+  Vector2D.cpp
+  LZEngine.cpp
+  Geometry.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\rendering\renderable.h(2): fatal error C1083: Cannot open include file: 'Math/Matrix2DH.h': No such file or directory
+  KeyInput.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\input\keyinput.cpp(2): fatal error C1083: Cannot open include file: 'Input/IKeyMapper.h': No such file or directory
+  PhysicsComponent.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\componentsystem\components\physicscomponent.h(2): fatal error C1083: Cannot open include file: 'ComponentSystem/Component.h': No such file or directory
+  RendererComponent.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\componentsystem\components\renderercomponent.h(2): fatal error C1083: Cannot open include file: 'ComponentSystem/Component.h': No such file or directory
+  Node.cpp
+  GameObject.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\componentsystem\gameobject.h(2): fatal error C1083: Cannot open include file: 'Math/Vector3D.h': No such file or directory
+  Component.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\componentsystem\component.cpp(1): fatal error C1083: Cannot open include file: 'ComponentSystem/Component.h': No such file or directory
+  ColiderComponent.cpp
+c:\repos\visual studio\lzengine - copy (2)\lzengine\componentsystem\components\colidercomponent.h(2): fatal error C1083: Cannot open include file: 'ComponentSystem/Component.h': No such file or directory
+  Generating Code...
