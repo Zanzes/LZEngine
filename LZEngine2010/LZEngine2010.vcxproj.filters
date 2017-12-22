@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LZEngine.cpp" />
+    <ClCompile Include="ComponentSystem\Components\ColiderComponent.cpp">
+      <Filter>ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSystem\Components\PhysicsComponent.cpp">
+      <Filter>ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSystem\Components\RendererComponent.cpp">
+      <Filter>ComponentSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSystem\Component.cpp">
+      <Filter>ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing\FrameTimer.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSystem\GameObject.cpp">
+      <Filter>ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing\GameTime.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Geometry.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructures\Node.cpp">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\Profile.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\Profiler.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ProMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Renderable.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Renderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing\SplitTimer.cpp">
+      <Filter>Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2D.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3D.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ComponentSystem\Components\ColiderComponent.h">
+      <Filter>ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSystem\Components\PhysicsComponent.h">
+      <Filter>ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSystem\Components\RendererComponent.h">
+      <Filter>ComponentSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSystem\Component.h">
+      <Filter>ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing\FrameTimer.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Constants.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSystem\GameObject.h">
+      <Filter>ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing\GameTime.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Geometry.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\IKeyMapper.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\LZLinkedList.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix2D.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix2DH.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix3D.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Node.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling\Profiler.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling\Profile.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ProMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Renderable.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Renderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing\SplitTimer.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing\Timing.h">
+      <Filter>Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2D.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3D.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataStructures\LZLinkedList.inl">
+      <Filter>DataStructures</Filter>
+    </None>
+    <None Include="Math\Matrix3D.inl">
+      <Filter>Math\Matrix</Filter>
+    </None>
+    <None Include="Math\Matrix2D.inl">
+      <Filter>Math\Matrix</Filter>
+    </None>
+    <None Include="Math\Matrix2DH.inl">
+      <Filter>Math\Matrix</Filter>
+    </None>
+    <None Include="Math\Vector3D.inl">
+      <Filter>Math\Vector</Filter>
+    </None>
+    <None Include="Math\Vector2D.inl">
+      <Filter>Math\Vector</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{d24cd5ac-2d4e-4dee-9055-e1b21b292d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentSystem">
+      <UniqueIdentifier>{1941b094-0c86-4671-b180-86c67169957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timing">
+      <UniqueIdentifier>{12f1e903-8504-4669-a8eb-0198c6beedb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{432d6899-8c0f-4820-a741-690843eea3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{e0497891-9d20-4a1a-8bec-bf6b667f8099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentSystem\Components">
+      <UniqueIdentifier>{11992c95-c6e0-42af-a7a1-8db199c8b8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{30b998f4-8aca-4b9b-990a-e9667c5b80f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{053f75e5-644a-4d86-b732-f005f196e14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector">
+      <UniqueIdentifier>{f5a84cf9-e3eb-4185-92ea-94662db5364a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiling">
+      <UniqueIdentifier>{aa58c55b-23c0-4b62-aa33-7b230743a04c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿Build started 22-12-2017 20:11:51.
+     1>Project "C:\Dev (No Sync)\Visual Studio\LZEngine\DemoGame\DemoGame.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Tmp\DemoGame.lastbuildstate".
+     1>Done Building Project "C:\Dev (No Sync)\Visual Studio\LZEngine\DemoGame\DemoGame.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.02

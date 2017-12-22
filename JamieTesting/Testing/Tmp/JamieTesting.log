@@ -1,8 +1,0 @@
-﻿  Vector3DTests.cpp
-  Vector2DTests.cpp
-  MyMain.cpp
-  Matrix3DTests.cpp
-  Matrix2DTests.cpp
-  gtest-all.cc
-  Generating Code...
-  JamieTesting.vcxproj -> C:\Repos\Visual Studio\LZEngine\Build\JamieTesting.exe
