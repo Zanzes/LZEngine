@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Components\ControllerComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\NewKeyMapper.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFiles\MyGame.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFiles\MyGame_moc.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\ControllerComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputActions.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\NewKeyMapper.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFiles\MyGame.h">
+      <Filter>GameFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Input">
+      <UniqueIdentifier>{76b24dd0-9df1-4087-93ac-5f2ded6ad053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{575c4fbc-b072-496f-a338-7d3c62eb1631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles">
+      <UniqueIdentifier>{6072b574-ff31-4388-836b-da97e315cd0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
