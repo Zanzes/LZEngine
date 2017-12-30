@@ -67,7 +67,7 @@ void evaluateLastRow(const T& op)
 {
 	if(typeid(T) == typeid(Matrix3D))
 	{
-		const __int64 NUM_ELEMENTS_IN_FIRST_TWO_ROWS = 6;
+		const int NUM_ELEMENTS_IN_FIRST_TWO_ROWS = 6;
 		const float* p = reinterpret_cast<const float*>(&op);
 		p += NUM_ELEMENTS_IN_FIRST_TWO_ROWS;
 		EXPECT_FLOAT_EQ(*p++, 0);

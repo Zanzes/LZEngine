@@ -47,9 +47,6 @@
     <ClCompile Include="Input\KeyInput.cpp">
       <Filter>Input</Filter>
     </ClCompile>
-    <ClCompile Include="Math\Vector3D.cpp">
-      <Filter>Math\Vector</Filter>
-    </ClCompile>
     <ClCompile Include="Timing\GameTime.cpp">
       <Filter>Timing</Filter>
     </ClCompile>

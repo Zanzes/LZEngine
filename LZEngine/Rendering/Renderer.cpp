@@ -63,6 +63,7 @@ namespace LZSoft
 
 		Renderable* Renderer::addRenderable(Geometry* geometry)
 		{
+			assert(numRenderables != MAX_RENDERABLE);
 			Renderable& r = renderables[numRenderables++];
 			r.what = geometry;
 
@@ -96,15 +97,17 @@ namespace LZSoft
 			{
 				Renderable& r = renderables[j];
 
-				glBufferSubData(GL_ELEMENT_ARRAY_BUFFER, 0, sizeof(ushort)* r.what->numIndices, r.what->indices);
+				glBufferSubData(GL_ELEMENT_ARRAY_BUFFER, 0, sizeof(unsigned short)* r.what->numIndices, r.what->indices);
 
 				const Math::Matrix2DH ajusted = getAspectRationMatriox() * r.where;
 
 				for (int i = 0; i < r.what->numVertices; i++)
+				{
 					transformedVerts[i] = ajusted * r.what->vertices[i];
+				}
 
-				glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(Math::Vector3D)*r.what->numVertices, transformedVerts);
-				glDrawElements(r.what->drawMode, r.what->numIndices, GL_UNSIGNED_SHORT, 0);
+					glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(Math::Vector3D)*r.what->numVertices, transformedVerts);
+					glDrawElements(r.what->drawMode, r.what->numIndices, GL_UNSIGNED_SHORT, 0);
 			}
 		}
 	}

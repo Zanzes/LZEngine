@@ -149,8 +149,8 @@ TEST(Vector3D, projectOntox)
 	Vector3D(2.4f, 3.1f, -99.6f),
 
 	};
-	const __int64 NUM_VECTORS = sizeof(vectors) / sizeof(*vectors);
-	for(__int64 i = 0; i < NUM_VECTORS - 1; i++)
+	const int NUM_VECTORS = sizeof(vectors) / sizeof(*vectors);
+	for(int i = 0; i < NUM_VECTORS - 1; i++)
 	{
 		testProjectionAlgorithms(vectors[i], vectors[i + 1]);
 		testProjectionAlgorithms(vectors[i + 1], vectors[i]);

@@ -1,1 +1,241 @@
-﻿
+﻿Build started 22-12-2017 15:31:58.
+     1>Project "C:\Temp\LZEngine\LZEngine\LZEngine.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Debug\tmp\LZEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Temp\LZEngine\LZEngine /IC:\Temp\LZEngine\Middleware\Qt\include /IC:\Temp\LZEngine\Middleware\glew\include /IC:\Temp\LZEngine\LZEngine\ /ZI /nologo /W3 /WX /Od /Oy- /D PROFILING_ON /D WIN32 /D _DEBUG /D LZENGINE_EXPORTS /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\tmp\\" /Fd"Debug\tmp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ComponentSystem\Components\ColiderComponent.cpp ComponentSystem\Component.cpp ComponentSystem\GameObject.cpp DataStructures\Node.cpp ComponentSystem\Components\RendererComponent.cpp ComponentSystem\Components\PhysicsComponent.cpp Input\KeyInput.cpp Rendering\Geometry.cpp LZEngine.cpp Math\Vector2D.cpp Profiling\Profile.cpp Profiling\Profiler.cpp Math\ProMath.cpp Rendering\Renderable.cpp Rendering\Renderer.cpp Timing\GameTime.cpp Timing\SplitTimer.cpp Timing\FrameTimer.cpp
+         FrameTimer.cpp
+         SplitTimer.cpp
+         GameTime.cpp
+         Renderer.cpp
+         Renderable.cpp
+         ProMath.cpp
+         Profiler.cpp
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(12): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : only static const integral data members can be initialized within a class
+                 c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(30) : see reference to class template instantiation 'LZSoft::DataStructures::LZLinkedList<T>' being compiled
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(13): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count64' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Head' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Tail' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count64' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\profiling\profiler.h(21): error C2864: 'LZSoft::Profiling::Profiler::Frame' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\profiling\profiler.h(22): error C2864: 'LZSoft::Profiling::Profiler::CategoryIndex' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(12): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\temp\lzengine\lzengine\profiling\profiler.h(26) : see reference to class template instantiation 'LZSoft::DataStructures::LZLinkedList<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(13): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Head' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Tail' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(12): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+                 c:\temp\lzengine\lzengine\profiling\profiler.h(28) : see reference to class template instantiation 'LZSoft::DataStructures::LZLinkedList<T>' being compiled
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(13): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Head' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Tail' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+         Profile.cpp
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(12): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : only static const integral data members can be initialized within a class
+                 c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(30) : see reference to class template instantiation 'LZSoft::DataStructures::LZLinkedList<T>' being compiled
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(13): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count64' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Head' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Tail' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count64' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\profiling\profiler.h(21): error C2864: 'LZSoft::Profiling::Profiler::Frame' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\profiling\profiler.h(22): error C2864: 'LZSoft::Profiling::Profiler::CategoryIndex' : only static const integral data members can be initialized within a class
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(12): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\temp\lzengine\lzengine\profiling\profiler.h(26) : see reference to class template instantiation 'LZSoft::DataStructures::LZLinkedList<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(13): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Head' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Tail' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(12): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+                 c:\temp\lzengine\lzengine\profiling\profiler.h(28) : see reference to class template instantiation 'LZSoft::DataStructures::LZLinkedList<T>' being compiled
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(13): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::_count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Head' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(15): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Tail' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(16): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2327: 'LZSoft::DataStructures::LZLinkedList<T>::_count' : is not a type name, static, or enumerator
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2065: '_count' : undeclared identifier
+     1>c:\temp\lzengine\lzengine\datastructures\lzlinkedlist.h(17): error C2864: 'LZSoft::DataStructures::LZLinkedList<T>::Count64' : only static const integral data members can be initialized within a class
+                 with
+                 [
+                     T=LZSoft::Profiling::Profiler::Category
+                 ]
+         Vector2D.cpp
+         LZEngine.cpp
+         Geometry.cpp
+         KeyInput.cpp
+         PhysicsComponent.cpp
+     1>c:\temp\lzengine\lzengine\componentsystem\gameobject.h(17): error C2864: 'LZSoft::ComponentSystem::GameObject::orientation' : only static const integral data members can be initialized within a class
+         RendererComponent.cpp
+     1>c:\temp\lzengine\lzengine\componentsystem\gameobject.h(17): error C2864: 'LZSoft::ComponentSystem::GameObject::orientation' : only static const integral data members can be initialized within a class
+         Node.cpp
+         GameObject.cpp
+     1>c:\temp\lzengine\lzengine\componentsystem\gameobject.h(17): error C2864: 'LZSoft::ComponentSystem::GameObject::orientation' : only static const integral data members can be initialized within a class
+         Component.cpp
+         ColiderComponent.cpp
+     1>c:\temp\lzengine\lzengine\componentsystem\gameobject.h(17): error C2864: 'LZSoft::ComponentSystem::GameObject::orientation' : only static const integral data members can be initialized within a class
+         Generating Code...
+     1>Done Building Project "C:\Temp\LZEngine\LZEngine\LZEngine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.06

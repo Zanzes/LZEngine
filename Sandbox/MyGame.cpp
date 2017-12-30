@@ -16,15 +16,14 @@ namespace LZSoft
 	{
 		Vector3D pVerts[] = { Vector3D(+0.0f, +0.1f, +1.f),Vector3D(-0.1f, -0.1f, +1.f),Vector3D(+0.1f, -0.1f, +1.f) };
 		memcpy(playerVerts, pVerts, sizeof pVerts);
-		ushort pi[] = { 0,1,2 };
+		unsigned short pi[] = { 0,1,2 };
 		memcpy(playerIndices, pi, sizeof pi);
 
 		Player.addComponent(&PlayerPhysics);
 		Player.addComponent(&PlayerControler);
 		PlayerColider.setData(borderVerts, BORDER_VERT_COUNT);
 		Player.addComponent(&PlayerColider);
-
-
+		
 		Geometry* playerGeometry = renderer.addGeometry(playerVerts, PLAYER_VERT_COUNT, playerIndices, PLAYER_INDICES_COUNT);
 		playerRenderable = renderer.addRenderable(playerGeometry);
 

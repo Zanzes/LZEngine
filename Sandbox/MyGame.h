@@ -37,14 +37,14 @@ namespace LZSoft
 
 		//Rendering::Renderable* lerpInstamce;
 		
-		static const __int64 PLAYER_VERT_COUNT = 3;
+		static const int PLAYER_VERT_COUNT = 3;
 		Math::Vector3D playerVerts[PLAYER_VERT_COUNT];
-		static const __int64 PLAYER_INDICES_COUNT = 3;
+		static const int PLAYER_INDICES_COUNT = 3;
 		unsigned short playerIndices[PLAYER_INDICES_COUNT];
 
-		static const __int64 BORDER_VERT_COUNT = 4;
+		static const int BORDER_VERT_COUNT = 4;
 		Math::Vector3D borderVerts[BORDER_VERT_COUNT];
-		static const __int64 BORDER_INDICES_COUNT = 8;
+		static const int BORDER_INDICES_COUNT = 8;
 		unsigned short borderIndices[PLAYER_INDICES_COUNT];
 
 		bool initializePlayer();
